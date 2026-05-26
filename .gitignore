@@ -1,0 +1,90 @@
+# ==========================================
+# Python 核心文件与缓存
+# ==========================================
+# 字节码文件，加快 Python 运行速度的，不需要提交
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展文件
+*.so
+
+# Distribution / Packaging（打包、发布相关的临时文件）
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 虚拟环境 (Virtual Environments)
+# ==========================================
+# 强烈建议将所有依赖安装在虚拟环境中，且绝对不要提交它
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 单元测试与覆盖率报告
+# ==========================================
+.htmlcov/
+.tox/
+.nosenv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+精度报告/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ==========================================
+# 日志、本地配置与敏感信息
+# ==========================================
+# 存放本地环境变量的敏感文件（比如数据库密码、API Key），绝对不能公开
+.env.local
+.env.*.local
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ==========================================
+# 常见编辑器与 IDE 配置文件
+# ==========================================
+# PyCharm / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 操作系统临时文件
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
